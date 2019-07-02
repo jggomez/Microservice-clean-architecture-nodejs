@@ -1,0 +1,25 @@
+{
+  "name": "userservice",
+  "version": "1.0.0",
+  "description": "Microservicio que gestiona los usuarios",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ms",
+    "user"
+  ],
+  "author": "Juan Guillermo Gómez",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  },
+  "dependencies": {
+    "blipp": "^4.0.0",
+    "hapi": "^18.1.0",
+    "require-directory": "^2.1.1"
+  }
+}
