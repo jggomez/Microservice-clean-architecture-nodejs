@@ -5,12 +5,13 @@
 
     NodeJS - Carbon
     NodeJS - Latest
+    HAPI
     Docker for Linux
 
 ### Deploy in GCP Cloud Run
 
-1- gcloud config set project PROJECT-ID
-2- gcloud builds submit --tag gcr.io/PROJECT-ID/userservice
-3- gcloud beta run deploy --image gcr.io/PROJECT-ID/userservice --platform managed
+> 1. gcloud config set project **PROJECT-ID**
+> 2. gcloud builds submit --tag **gcr.io/PROJECT-ID/userservice**
+> 3. gcloud beta run deploy --image **gcr.io/PROJECT-ID/userservice** --platform managed
 
 ### @jggomezt
