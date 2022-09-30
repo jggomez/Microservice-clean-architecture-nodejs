@@ -18,7 +18,7 @@
     "eslint": "^6.0.1"
   },
   "dependencies": {
-    "blipp": "^4.0.0",
+    "blipp": "^4.0.2",
     "hapi": "^18.1.0",
     "require-directory": "^2.1.1"
   }
